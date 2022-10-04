@@ -1,0 +1,41 @@
+.home-container {
+  width: 100%;
+  min-height: 100%;
+  background-image: url('../images/background.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  .logo {
+    text-align: center;
+    margin-top: 10%;
+    img {
+      width: 15rem;
+      height: 15rem;
+    }
+  }
+}
+
+.title {
+  text-align: center;
+  font-size: 1.8rem;
+  color: $white;
+  padding: 0 5%;
+}
+
+//----------------MEDIA QUERY-----------------//
+@media (max-width: 800px) {
+  .logo {
+    img {
+      margin-top: 15%;
+    }
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+}

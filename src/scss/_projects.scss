@@ -1,0 +1,104 @@
+.projects {
+  padding-top: 6rem;
+  min-width: 100%;
+  min-height: 100vh;
+  h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 2.5em;
+  }
+}
+
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  margin: 60px 30px;
+}
+
+.cover {
+  width: 18rem;
+  height: 18rem;
+  background-color: $black;
+  color: $light-green;
+  border-radius: 20px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  visibility: hidden;
+  transition: 0.5s;
+  p {
+    padding: 2rem 2rem 0 2rem;
+    margin-bottom: 6rem;
+    text-align: center;
+  }
+}
+
+.card {
+  img {
+    width: 18rem;
+    height: 18rem;
+    object-fit: cover;
+    position: relative;
+    border-radius: 20px;
+    transition: 0.5s;
+    z-index: 1;
+  }
+}
+
+.card:hover img {
+  transition: 0.5s;
+}
+
+.card:hover .cover {
+  visibility: visible;
+  opacity: 0.9;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+button {
+  position: absolute;
+  margin-top: 13rem;
+  background-color: transparent;
+  border: none;
+
+  a {
+    text-decoration: none;
+    border: 2px solid $light-green;
+    color: $light-green;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1.5em;
+  }
+}
+
+button:hover a {
+  background-color: $light-green;
+  color: $dark-green;
+}
+
+//----------------MEDIA QUERY-----------------//
+
+@media (max-width: 350px) {
+  .cover {
+    width: 14rem;
+    height: 14rem;
+    p {
+      font-size: 0.7rem;
+    }
+  }
+
+  .card {
+    img {
+      width: 14rem;
+      height: 14rem;
+    }
+  }
+  button {
+    margin-top: 10rem;
+  }
+}
