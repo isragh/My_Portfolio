@@ -1,5 +1,7 @@
 import '../../scss/main.scss';
 import evConnection from '../../images/evConnection.png';
+import clickAndEat from '../../images/clickandeat.png';
+import feedbackApp from '../../images/feedbackapp.png';
 
 import Footer from '../navigation/Footer';
 
@@ -12,35 +14,32 @@ export default function Projects() {
                     <div className="card">
                         <div className="cover">
                             <p>
-                                Lorem ipsun fdlasjfloasdjflkamdfoia ldskjfoipasdjfasl lisdajfoasidjfalskdj kljdfakdhfas
-                                dlfkjas;ljfasd lksdjf;lkad fdslkhfkjlahgd kj djkgajskgf dfgajsdfb ASJGD FJHASd
-                                kjhfalsdhfkajsdhfalsdf.
+                                App that facilitates EV
+                                drivers to charge their car by connecting
+                                with private wall box owners.
                             </p>
-                            <button><a href="/" target="_blank" rel="noreferrer">Visit Site</a></button>
+                            <button><a href="https://evconnection.herokuapp.com/" target="_blank" rel="noreferrer">Visit Site</a></button>
                         </div>
                         <img src={evConnection} alt="electric-car" />
                     </div>
                     <div className="card">
                         <div className="cover">
                             <p>
-                                Lorem ipsun fdlasjfloasdjflkamdfoia ldskjfoipasdjfasl lisdajfoasidjfalskdj kljdfakdhfas
-                                dlfkjas;ljfasd lksdjf;lkad fdslkhfkjlahgd kj djkgajskgf dfgajsdfb ASJGD FJHASd
-                                kjhfalsdhfkajsdhfalsdf.
+                                App that enables placing food orders.
                             </p>
-                            <button><a href="/" target="_blank" rel="noreferrer">Visit Site</a></button>
+                            <button><a href="https://clickandeat.netlify.app/" target="_blank" rel="noreferrer">Visit Site</a></button>
                         </div>
-                        <img src={evConnection} alt="icomers" />
+                        <img src={clickAndEat} alt="icomers" />
                     </div>
                     <div className="card">
                         <div className="cover">
                             <p>
-                                Lorem ipsun fdlasjfloasdjflkamdfoia ldskjfoipasdjfasl lisdajfoasidjfalskdj kljdfakdhfas
-                                dlfkjas;ljfasd lksdjf;lkad fdslkhfkjlahgd kj djkgajskgf dfgajsdfb ASJGD FJHASd
-                                kjhfalsdhfkajsdhfalsdf.
+                                App that allows users to add, update and
+                                delete feedback.
                             </p>
-                            <button><a href="/" target="_blank" rel="noreferrer">Visit Site</a></button>
+                            <button><a href="https://feedbackapp-isra.netlify.app/" target="_blank" rel="noreferrer">Visit Site</a></button>
                         </div>
-                        <img src={evConnection} alt="music" />
+                        <img src={feedbackApp} alt="music" />
                     </div>
                 </div>
             </div>
