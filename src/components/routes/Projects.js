@@ -17,6 +17,7 @@ export default function Projects() {
                                 App that facilitates EV
                                 drivers to charge their car by connecting
                                 with private wall box owners.
+                                PLEASE, SIGN UP TO SEE ALL THE FEATURES.
                             </p>
                             <button><a href="https://evconnection.herokuapp.com/" target="_blank" rel="noreferrer">Visit Site</a></button>
                         </div>
