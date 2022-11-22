@@ -14,10 +14,12 @@ export default function About() {
                         My name is Israel and I am a Spanish citizen living in Berlin.
                         <br></br>
                         <br></br>
-                        Even though I have a background in hospitality,
-                        my passion about computers and coding has made me start my
-                        academic preparation in Web Development. I am fully prepared
-                        to work with HTML, CSS and Javascript.
+                        When I first started to understand coding from a simple page
+                        creation, I discovered my true passion. I wanted to get a deeper
+                        involvement in building out applications and my ambition to
+                        develop as a professional web developer has supported my
+                        growth. I am determined to continually learn and improve my
+                        skills in creating high-quality websites.
                         <br></br>
                         <br></br>
                         I am proactive, a quick learner, naturally curious and I take
